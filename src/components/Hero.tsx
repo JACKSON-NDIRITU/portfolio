@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen items-center overflow-hidden bg-white px-6 pt-20"
+      className="relative flex min-h-screen items-center overflow-hidden bg-white px-6 pt-10"
     >
       {/* Background Elements */}
       <div className="pointer-events-none absolute -left-40 top-20 h-80 w-80 rounded-full bg-gray-200/50 blur-3xl" />

@@ -17,9 +17,8 @@ const projects = [
     category: "Text-to-Speech Web App",
     description:
       "A modern text-to-speech application that converts written text into natural speech with selectable voices, adjustable speed, and downloadable audio output.",
-    image: "/projects/speakflow.png",
+    image: "/projects/speakflow.jpg",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
-    liveUrl: "",
   },
 ];
 
@@ -118,9 +117,9 @@ export default function Projects() {
                     </div>
                   </div>
 
-                  {/* Button */}
-                  <div className="mt-8">
-                    {project.liveUrl ? (
+                  {/* Hekma Webs Button Only */}
+                  {project.liveUrl && (
+                    <div className="mt-8">
                       <a
                         href={project.liveUrl}
                         target="_blank"
@@ -129,15 +128,8 @@ export default function Projects() {
                       >
                         Visit Website →
                       </a>
-                    ) : (
-                      <button
-                        disabled
-                        className="rounded-full border border-gray-300 px-5 py-3 text-sm font-semibold text-gray-400"
-                      >
-                        Coming Soon
-                      </button>
-                    )}
-                  </div>
+                    </div>
+                  )}
 
                 </div>
               </div>

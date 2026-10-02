@@ -96,7 +96,7 @@ export default function About() {
               </p>
 
               <p className="text-sm font-semibold text-gray-900">
-                Building & Learning
+                Building & Deploying
               </p>
             </motion.div>
           </motion.div>
