@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
-    year: "2026",
+    year: "2025 & 2026",
     title: "Web Development Experience",
-    organization: "Website Development & Maintenance",
+    organization: "Momentrum Consulting Limited",
     description:
       "Built, maintained, and optimized websites with a focus on responsive design, SEO improvements, performance, and user experience.",
   },
@@ -16,7 +16,7 @@ const experience = [
       "Worked on AI data annotation and quality assurance tasks involving image, audio, and speech datasets while following detailed annotation guidelines.",
   },
   {
-    year: "2026",
+    year: "2025",
     title: "IBM TechExchange Event",
     organization: "AI & Automation",
     description:
