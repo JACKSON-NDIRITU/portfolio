@@ -2,6 +2,13 @@ import { motion } from "framer-motion";
 
 const experience = [
   {
+  year: "2026",
+  title: "Bachelor of Science in Computer Science",
+  organization: "Meru University of Science and Technology",
+  description:
+    "Graduated with Second Class Honours (Upper Division), gaining knowledge and practical skills in software development, programming, databases, AI and, machine learning.",
+   },
+  {
     year: "2025 & 2026",
     title: "Web Development Experience",
     organization: "Momentrum Consulting Limited",

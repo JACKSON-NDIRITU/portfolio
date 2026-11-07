@@ -75,7 +75,7 @@ export default function About() {
             {/* Profile Photo */}
             <div className="relative h-64 w-64 overflow-hidden rounded-full border border-gray-200 bg-white shadow-xl md:h-80 md:w-80">
                  <img
-                   src="/profile_pic.jpg"
+                   src="projects/Jackson-profile-pic.jpeg"
                    alt="Jackson Ndiritu"
                    className="h-full w-full object-cover transition duration-500 hover:scale-105"
              />
