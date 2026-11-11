@@ -17,7 +17,7 @@ const projects = [
     category: "Text-to-Speech Web App",
     description:
       "A modern text-to-speech application that converts written text into natural speech with selectable voices, adjustable speed, and downloadable audio output.",
-    image: "/projects/speakflow.jpg",
+    image: "/projects/speakflow_image.jpg",
     technologies: ["React", "TypeScript", "Tailwind CSS"],
   },
 ];
